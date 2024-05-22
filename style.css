@@ -1,0 +1,135 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+/* Sezione 1 Call to action */
+.cta-section-1{
+    background-image:url(./media/bg-1.jpg);
+    background-size: cover;
+}
+.motto{
+    font-size: 65px;
+    line-height: 80px;
+}
+.custom-calendar{
+    color: #FFED00;
+}
+.data-evento {
+    font-size: 30px;
+    margin-left: 5px;
+    margin-top: -10px;
+    font-weight:500;
+}
+.ora-evento{
+    margin-left: 5px;
+    margin-top: -22px;
+}
+.btn-custom{
+    border: 1px solid #FFED00;
+    border-radius: 100px; 
+    color: #FFED00;
+}
+
+/* Sezione 2 Impara le basi */
+.gaming-background{
+ background-color: #18244A;
+}
+.icona-gaming{
+    width: 80%;
+    height: auto;
+}
+
+/* Sezione 3 Form */
+.section-3{
+    background-image: url(./media/bg-2.jpg);
+    background-size: cover;
+}
+.form-iscrizione{
+    background-color: #18244A;
+    height: auto;
+    width: 500px;
+    border-radius: 25px;
+    margin-bottom:-90px;
+}
+.nome{
+    width: 100%;
+    background-color: #18244A;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #BB25C1;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.country{
+    width: 30%;
+    background-color: #18244A;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #BB25C1;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.phone{
+    width: 68%;
+    background-color: #18244A;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #BB25C1;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.sign-up-form-btn{
+    width: 100%;
+    background-color: #FFED00;
+    border-radius: 100px; 
+    color:#18244A;
+    padding: 10px;
+}
+
+/* Sezione 4 About */
+.about-background{
+    background-color: #120820;
+}
+.about-h3{
+    color: #FFED00;
+}
+.aulab-future{
+    height: auto;
+    width: 500px;
+}
+/* Sezione 5 Marco Insabato */
+.insabato-background{
+    background-image: url(./media/bg-3.jpg);
+    background-size:auto ;
+}
+.insabato-h3 {
+    color: #FFED00;
+}
+footer{
+    background-color: black;
+    text-align: center;
+}
+.footer-text{
+    margin: 0px;
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 600px){
+    .event-div{
+        justify-content: center;
+    }
+
+    .motto{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .form-iscrizione{
+        background-color: #18244A;
+        height: auto;
+        width: 700px;
+    }
+}
